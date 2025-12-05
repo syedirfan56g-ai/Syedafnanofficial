@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Afnan | 3D Neon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">SA</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">WhatsApp</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="neon-text" data-text="Hi! I am Syed Afnan">Hi! I am Syed Afnan</h1>
+            <p class="subtitle">Graphic Designer — Social Media Branding Specialist</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+        <div class="hero-background">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section about-section">
+        <div class="section-background">
+            <div class="section-cube" style="top: 10%; left: 5%; width: 80px; height: 80px; animation-duration: 20s;"></div>
+            <div class="section-cube" style="top: 80%; left: 90%; width: 50px; height: 50px; animation-duration: 15s; border-color: var(--neon-cyan); box-shadow: 0 0 20px var(--neon-cyan);"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>Professional Graphic Designer with 1 year experience. I design modern social media ads, branding content, and creative visuals. Skilled in Photoshop and Illustrator. I focus on visually strong designs that connect with brands and audiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="section-background">
+            <div class="section-cube" style="top: 15%; left: 85%; width: 70px; height: 70px; animation-duration: 18s; border-color: var(--neon-magenta); box-shadow: 0 0 20px var(--neon-magenta);"></div>
+            <div class="section-cube" style="top: 75%; left: 10%; width: 60px; height: 60px; animation-duration: 25s;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-glow">Ps</div>
+                    <h3>Photoshop</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-glow">Ai</div>
+                    <h3>Illustrator</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-glow">Ads</div>
+                    <h3>Social Media Ads</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-glow">Br</div>
+                    <h3>Branding</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-glow">Cr</div>
+                    <h3>Creative Designing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="section-background">
+            <div class="section-cube" style="top: 20%; left: 5%; width: 90px; height: 90px; animation-duration: 22s;"></div>
+            <div class="section-cube" style="top: 85%; left: 80%; width: 70px; height: 70px; animation-duration: 16s; border-color: var(--neon-cyan); box-shadow: 0 0 20px var(--neon-cyan);"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="slider-container">
+                <div class="slider-3d">
+                    <!-- Placeholder images using CSS gradients or placeholders if files missing -->
+                    <div class="slide active" style="--i:0;">
+                        <div class="slide-content">Project 1</div>
+                    </div>
+                    <div class="slide" style="--i:1;">
+                        <div class="slide-content">Project 2</div>
+                    </div>
+                    <div class="slide" style="--i:2;">
+                        <div class="slide-content">Project 3</div>
+                    </div>
+                    <div class="slide" style="--i:3;">
+                        <div class="slide-content">Project 4</div>
+                    </div>
+                    <div class="slide" style="--i:4;">
+                        <div class="slide-content">Project 5</div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prevBtn" class="nav-btn">Prev</button>
+                    <button id="nextBtn" class="nav-btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="section-background">
+            <div class="section-cube" style="top: 5%; left: 5%; width: 70px; height: 70px; animation-duration: 22s; border-color: var(--neon-cyan); box-shadow: 0 0 20px var(--neon-cyan);"></div>
+            <div class="section-cube" style="top: 85%; left: 85%; width: 90px; height: 90px; animation-duration: 16s; border-color: var(--neon-magenta); box-shadow: 0 0 20px var(--neon-magenta);"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Brand Identity</h3>
+                    <p>Creating unique brand identities that stand out in the digital landscape.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Social Media Content</h3>
+                    <p>Engaging social media content that drives audience interaction.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📰</div>
+                    <h3>Digital Advertising</h3>
+                    <p>Eye-catching digital ads that convert viewers into customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LinkedIn Section -->
+    <section id="linkedin" class="section linkedin-section">
+        <div class="section-background">
+            <div class="section-cube" style="top: 10%; left: 90%; width: 60px; height: 60px; animation-duration: 20s; border-color: var(--neon-magenta); box-shadow: 0 0 20px var(--neon-magenta);"></div>
+            <div class="section-cube" style="top: 80%; left: 15%; width: 80px; height: 80px; animation-duration: 18s;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <a href="https://linkedin.com" target="_blank" class="linkedin-btn">Visit My LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- WhatsApp Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-background">
+            <div class="section-cube" style="top: 15%; left: 10%; width: 70px; height: 70px; animation-duration: 25s;"></div>
+            <div class="section-cube" style="top: 75%; left: 85%; width: 90px; height: 90px; animation-duration: 15s; border-color: var(--neon-cyan); box-shadow: 0 0 20px var(--neon-cyan);"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="whatsapp-contact">
+                <a href="https://wa.me/923198396649" target="_blank" class="whatsapp-link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png" alt="WhatsApp Logo" class="whatsapp-logo">
+                    <span class="whatsapp-number">+92 319-8396649</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Syed Afnan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
